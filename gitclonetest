@@ -1,0 +1,13 @@
+# Function to add two numbers
+def add_numbers(num1, num2):
+    return num1 + num2
+
+# Get user input
+first_number = float(input("Enter the first number: "))
+second_number = float(input("Enter the second number: "))
+
+# Calculate the sum
+result = add_numbers(first_number, second_number)
+
+# Print the result
+print(f"The sum of {first_number} and {second_number} is: {result}")
